@@ -1,7 +1,7 @@
 .hero {
-    position: relative;
+    position: absolute;
     width: 85%;
-    top: 150px;
+    top: 25%;
     align-self: center;
     justify-self: center;
 }
@@ -31,7 +31,7 @@
 
 .hero-decore {
     position: absolute;
-    top: 27%;
+    top: 29%;
     left: 21%;
     z-index: -1;
 }
