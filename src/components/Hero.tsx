@@ -3,7 +3,7 @@ import './Hero.css'
 export function Hero() {
     return (
         <div className="hero">
-            <img src="girl-traveller.png" alt="girl traveller" className="hero-pic"></img>
+            <img src="girl-traveller.png" alt="girl traveller" className="hero-pic"/>
             <div className="hero-heading-box">
                 <h3 className="tagline">BEST DESTINATIONS AROUND THE WORLD</h3>
                 <img src="hero-header-decore.png" alt="" className='hero-decore' />
