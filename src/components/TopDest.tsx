@@ -1,4 +1,5 @@
 import './TopDest.css'
+import './Fonts.css'
 
 export function TopDest() {
     return (

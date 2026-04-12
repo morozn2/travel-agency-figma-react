@@ -1,0 +1,104 @@
+.light-grey-paragraph {
+    font-family: Poppins;
+    font-weight: 500;
+    color: rgb(132, 130, 154);
+}
+
+.grey-paragraph {
+    font-family: Poppins;
+    font-size: medium;
+    font-weight: 500;
+    color: rgb(94, 98, 130);
+    width: 70%;
+    line-height: 26px;
+}
+
+.bigger-grey-paragraph {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(94, 98, 130);
+}
+
+.blueish-grey-paragraph {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(94, 98, 130);
+}
+
+.smaller-blueish-grey-paragraph {
+    font-family: Poppins;
+    font-weight: 500;
+    color: rgb(94, 98, 130);
+}
+
+.smallest-blueish-grey-paragraph {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(94, 98, 130);
+}
+
+.light-blueish-grey-paragraph {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(94, 98, 130);
+}
+
+.bolder-blueish-grey-paragraph {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(94, 98, 130);
+}
+
+.bold-blueish-grey-paragraph {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(94, 98, 130);
+}
+
+.dark-blue-header {
+    font-family: Volkhov;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(20, 24, 62);
+    margin-bottom: 7%;
+}
+
+.hero-heading {
+    font-size: 84px;
+    color: rgb(24, 30, 75);
+    font-family: Volkhov;
+    line-height: 100%;
+}
+
+.black-paragraph-poppins {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+
+.small-black-paragraph-poppins {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+}
+
+.purple-paragraph {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(138, 121, 223);
+}
+
+.service-card-header {
+    font-family: Open Sans;
+    font-weight: 600;
+    color: rgb(20, 24, 62);
+}

@@ -10,35 +10,6 @@
     line-height: 10px;
 }
 
-.blueish-grey-paragraph {
-    font-family: Poppins;
-    font-weight: 500;
-    font-size: 18px;
-    color: rgb(94, 98, 130);
-}
-
-.smaller-blueish-grey-paragraph {
-    font-family: Poppins;
-    font-weight: 500;
-    font-size: 16px;
-    color: rgb(94, 98, 130);
-}
-
-.bolder-blueish-grey-paragraph {
-    font-family: Poppins;
-    font-weight: 600;
-    font-size: 18px;
-    color: rgb(94, 98, 130);
-}
-
-.dark-blue-header {
-    font-family: Volkhov;
-    font-weight: bold;
-    font-size: 50px;
-    color: rgb(20, 24, 62);
-    margin-bottom: 7%;
-}
-
 .plus-decor {
     position: absolute;
     right: 0;
@@ -71,12 +42,6 @@
 
 .service-card-image {
     width: 30%;
-}
-
-.service-card-header {
-    font-family: Open Sans;
-    font-weight: 600;
-    color: rgb(20, 24, 62);
 }
 
 .card-shadow {

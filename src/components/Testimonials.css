@@ -1,0 +1,77 @@
+.testimonials-outer-box {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: center;
+    width: 80%;
+    position: relative;
+    top: 500px;
+    height: 400px;
+}
+
+.left-side {
+    width: 45%;
+}
+
+.dots {
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(247, 247, 247);
+    border-radius: 10px;
+    width: 43%;
+    height: 210px;
+    padding: 24px 35px;
+    align-self: flex-end;
+    background-color: white;
+}
+
+.top-testimonial {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 43%;
+    height: 210px;
+    padding: 24px 35px;
+    position: absolute;
+    right: 7%;
+    bottom: 90px;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.044);
+}
+
+.man-avatar {
+    position: absolute;
+    width: 12%;
+    left: -30px;
+    top: -30px;
+}
+
+.text-box {
+    width: 85%;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.buttons-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 55px;
+    right: -70px;
+    align-self: center;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

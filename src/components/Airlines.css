@@ -1,0 +1,25 @@
+.airlines-box {
+    display: flex;
+    position: relative;
+    top: 600px;
+    width: 80%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: center;
+}
+
+.airline {
+    cursor: pointer;
+    filter: grayscale(100);
+}
+
+.center-airline {
+    filter: grayscale(0);
+}
+
+.center-airline-box {
+    padding: 15px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 60px 50px rgba(205, 205, 205, 0.44);
+}

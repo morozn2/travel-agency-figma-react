@@ -1,4 +1,5 @@
 import './Header.css'
+import './Fonts.css'
 
 export function Header() {
     return (

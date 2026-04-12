@@ -1,4 +1,5 @@
 import './Services.css'
+import './Fonts.css'
 
 export function Services() {
     return (

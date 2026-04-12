@@ -1,4 +1,5 @@
 import './Hero.css'
+import './Fonts.css'
 
 export function Hero() {
     return (
