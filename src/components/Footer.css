@@ -1,0 +1,9 @@
+footer {
+    bottom: 0;
+}
+
+.logo-and-text {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}

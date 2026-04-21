@@ -4,7 +4,7 @@ import './Fonts.css'
 export function Services() {
     return (
         <div className="services">
-            <img src="services-plus-decor.png" alt="" className="plus-decor"/>
+            <img src="services-plus-decor.png" alt="" className="plus-decor"/>  
             <p className="bolder-blueish-grey-paragraph">CATEGORY</p>
             <h1 className="dark-blue-header">We Offer Best Services</h1>
             <div className="service-cards-box">
@@ -17,8 +17,8 @@ export function Services() {
                     <img src="card-plane.png" alt="" className="service-card-image"/>
                         <h3 className="service-card-header">Best Flights</h3>
                         <p className="grey-paragraph">Engrossed listening. Park gate sell they west hard for the.</p>
+                        <img src="services-rectangle-decor.png" alt="" className="rectangle-decor"/>
                 </div>
-                <img src="services-rectangle-decor.png" alt="" className="rectangle-decor"/>
                 <div className="service-card">
                     <img src="mic.png" alt="" className="service-card-image"/>
                         <h3 className="service-card-header">Local Events</h3>

@@ -1,7 +1,5 @@
 .airlines-box {
     display: flex;
-    position: relative;
-    top: 600px;
     width: 80%;
     height: 50px;
     align-items: center;

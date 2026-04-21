@@ -4,8 +4,6 @@
     justify-self: center;
     justify-content: center;
     width: 80%;
-    position: relative;
-    top: 500px;
     height: 400px;
 }
 
@@ -14,7 +12,6 @@
 }
 
 .dots {
-    position: relative;
     top: 30px;
     cursor: pointer;
 }
@@ -61,7 +58,6 @@
 .buttons-box {
     display: flex;
     flex-direction: column;
-    position: relative;
     gap: 55px;
     right: -70px;
     align-self: center;

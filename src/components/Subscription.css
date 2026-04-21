@@ -1,0 +1,87 @@
+.sub-header {
+    width: 80%;
+    margin-bottom: 8%;
+}
+
+.sub-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background-color: rgb(245, 243, 254);
+    border-radius: 150px 20px 20px 20px;
+    width: 70%;
+    height: 290px;
+    padding: 80px;
+    text-align: center;
+    top: 750px;
+    z-index: 0;
+}
+
+.email-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    width: 80%;
+}
+
+.email-input {
+    width: 45%;
+    border: none;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: rgb(57, 66, 93);
+    z-index: 1;
+    background-image: url(./icons/letter-icon.png);
+    background-repeat: no-repeat;
+    background-position: left 30px center;
+    text-indent: 65px;
+}
+
+.email-input:focus {
+    background-image: none;
+    text-indent: 25px;
+}
+
+.sub-button {
+    padding: 22px;
+    width: 20%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    background-image: linear-gradient(to bottom, #FF946D, #FF7D68);
+    font-family: Open Sans;
+    cursor: pointer;
+}
+
+.sub-circles-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.15;
+}
+
+.sub-circles-left {
+    position: absolute;
+    left: 3%;
+    bottom: 0;
+    opacity: 0.15;
+}
+
+.send-icon {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    z-index: 2;
+}
+
+.sub-plus-decor {
+    position: absolute;
+    width: 11%;
+    bottom: -70px;
+    right: -100px;
+}

@@ -61,12 +61,27 @@
     color: rgb(94, 98, 130);
 }
 
+.big-semibold-blueish-paragraph {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 54px;
+    color: rgb(94, 98, 130);
+}
+
 .dark-blue-header {
     font-family: Volkhov;
     font-weight: bold;
     font-size: 50px;
     color: rgb(20, 24, 62);
     margin-bottom: 7%;
+}
+
+.footer-heading {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 44px;
+    color: rgb(20, 24, 62);
 }
 
 .hero-heading {
