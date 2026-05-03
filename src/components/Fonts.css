@@ -74,7 +74,7 @@
     font-weight: bold;
     font-size: 50px;
     color: rgb(20, 24, 62);
-    margin-bottom: 7%;
+    margin-bottom: 60px;
 }
 
 .footer-heading {
@@ -116,4 +116,24 @@
     font-family: Open Sans;
     font-weight: 600;
     color: rgb(20, 24, 62);
+}
+
+.small-paragraph-footer {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(94, 98, 130);
+}
+
+.nav-heading {
+    font-size: 21px;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.bigger-paragraph-footer {
+    font-size: 20px;
+    font-family: Poppins;
+    color: rgb(94, 98, 130);
+    font-weight: 500;
 }

@@ -2,18 +2,22 @@ p {
     margin: 4px 0;
 }
 
-.trips-box {
-    display: flex;
-    flex-direction: column;
-    width: 43%;
-}
-
 .trips-outer-box {
     display: flex;
     flex-direction: row;
     width: 80%;
     justify-self: center;
     justify-content: space-evenly;
+    position: relative;
+    margin-top: 85px;
+    margin-bottom: 100px;
+}
+
+.trips-box {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 43%;
 }
 
 .trip-steps-box {
@@ -46,14 +50,14 @@ p {
     justify-content: center;
     padding: 25px 20px;
     border-radius: 25px;
-    box-shadow: 0px 60px 50px rgba(0, 0, 0, 0.044), 70px -70px 100px rgba(172, 219, 255, 0.601);
+    box-shadow: 0px 60px 50px rgba(0, 0, 0, 0.044), 70px -70px 100px rgba(207, 234, 255, 0.601);
     align-self: flex-end;
     bottom: 50px;
 }
 
 .trip-to-rome {
-    width: 20%;
-    height: 100px;
+    width: 19.5%;
+    height: 90px;
     position: absolute;
     background-color: white;
     box-shadow: 0px 60px 50px rgba(0, 0, 0, 0.044);
@@ -63,13 +67,40 @@ p {
     padding: 20px;
     border-radius: 25px;
     right: 0;
-    bottom: 102px;
+    bottom: 55px;
+}
+
+.rome-heading-container {
+    position: relative;
+    top: -2px;
+}
+
+.rome-heading-container p {
+    margin: 0;
 }
 
 .rome-icon {
+    position: relative;
+    top: 0;
+    left: 0;
     width: 50px;
     height: 50px;
-    top: 5px;
+}
+
+.trip-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.progress-wrap {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 27%;
+    gap: 6px;
+    margin-top: -10px;
 }
 
 .greece-trip-img {

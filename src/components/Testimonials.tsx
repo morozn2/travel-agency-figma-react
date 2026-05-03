@@ -13,7 +13,7 @@ export function Testimonials() {
                 <div className='text-box'>
                     <p className='smaller-blueish-grey-paragraph'>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
                 </div>
-                <div>
+                <div className='test-author'>
                     <p className='bolder-blueish-grey-paragraph'>Chris Tomas</p>
                     <p className='smallest-blueish-grey-paragraph'>CEO of Red Button</p>
                 </div>

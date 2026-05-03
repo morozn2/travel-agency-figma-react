@@ -1,9 +1,96 @@
 footer {
-    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 350px;
+    width: 80%;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 350px;
+    width: 100%;
 }
 
 .logo-and-text {
     display: flex;
     flex-direction: column;
-    width: 10%;
+    gap: 15px;
+    width: 20%;
+}
+
+.logo-and-text h1 {
+    margin: 0;
+}
+
+.footer-info-container {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.info-block-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.socials-and-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 22px;
+}
+
+.social-media-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 41px;
+    height: 41px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 1px 3px 15px 1px rgba(230, 230, 230, 0.625);
+}
+
+.insta-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 3px 15px 1px rgba(230, 230, 230, 0.625);
+    background-image: url('insta-background.png');
+    background-position: center;
+    background-position-x: center;
+}
+
+.app {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.copyrights {
+    margin-bottom: 80px;
 }

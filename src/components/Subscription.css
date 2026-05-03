@@ -1,20 +1,22 @@
 .sub-header {
     width: 80%;
-    margin-bottom: 8%;
+    margin-bottom: 74px;
 }
 
 .sub-box {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-self: center;
-    background-color: rgb(245, 243, 254);
+    background-color: #f6f4ff;
     border-radius: 150px 20px 20px 20px;
     width: 70%;
-    height: 290px;
+    height: 247px;
     padding: 80px;
     text-align: center;
-    top: 750px;
+    margin-top: 45px;
+    margin-bottom: 66px;
     z-index: 0;
 }
 

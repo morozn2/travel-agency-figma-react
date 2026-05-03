@@ -8,7 +8,7 @@ export function TopDest() {
             <h1 className="dark-blue-header">Top Destinations</h1>
             <div className="dest-cards-box">
                 <div className='dest-card'>
-                    <img src="rome.png" alt="" />
+                    <img src="rome.png" alt="" className='dest-pic'/>
                     <div className='dest-and-price'>
                         <p className='blueish-grey-paragraph'>Rome, Italy</p>
                         <p className='blueish-grey-paragraph'>$5,42k</p>
@@ -19,7 +19,7 @@ export function TopDest() {
                     </div>
                 </div>
                 <div className='dest-card'>
-                    <img src="london.png" alt="" />
+                    <img src="london.png" alt="" className='dest-pic'/>
                     <div className='dest-and-price'>
                         <p className='blueish-grey-paragraph'>London, UK</p>
                         <p className='blueish-grey-paragraph'>$4,2k</p>
@@ -30,7 +30,7 @@ export function TopDest() {
                     </div>
                 </div>
                 <div className='dest-card'>
-                    <img src="europe.png" alt="" />
+                    <img src="europe.png" alt="" className='dest-pic'/>
                     <div className='dest-and-price'>
                         <p className='blueish-grey-paragraph'>Full Europe</p>
                         <p className='blueish-grey-paragraph'>$15k</p>

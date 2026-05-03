@@ -20,6 +20,12 @@ function App() {
       <Planes />
       <Hero />
       <Services />
+      <TopDest />
+      <Trips />
+      <Testimonials />
+      <Airlines />
+      <Subscription />
+      <Footer />
     </div>
   )
 }
