@@ -79,7 +79,7 @@ footer {
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 1px 3px 15px 1px rgba(230, 230, 230, 0.625);
-    background-image: url('insta-background.png');
+    background-image: url('/insta-background.png');
     background-position: center;
     background-position-x: center;
 }
